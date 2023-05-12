@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Generated using ChatGPT
+
 # Check that two arguments were provided
 if [ $# -ne 2 ]; then
     echo "Usage: $0 <input-file> <output-file>"
@@ -14,6 +16,7 @@ output_file="${output_file%.*}.pdf"  # Ensure output_file has a .pdf extension
 # Run Pandoc to convert the Markdown file to PDF
 pandoc "$input_file" \
   --pdf-engine=pdflatex \
+  --toc \
   -V mainfont="Palatino" \
   -V sansfont="Helvetica" \
   -V monofont="Courier" \

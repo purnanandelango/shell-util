@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Generated using ChatGPT
+
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 input_file output_file"
     exit 1

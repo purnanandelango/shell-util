@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Source: https://gist.github.com/mzabriskie/6631607#file-git-status
+
 dir="$1"
 
 # No directory has been provided, use current
