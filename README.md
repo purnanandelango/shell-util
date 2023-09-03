@@ -12,3 +12,12 @@ Add the following to `.zshrc` or `.bashrc`:
 ```shell
     export PATH="/path/to/shell-util:$PATH"
 ```
+## Alias
+
+```shell
+gpsom="git push origin master"
+gplom="git pull origin master"
+gcom="git commit -m"
+gstat="git status -s"
+gadd="git add"
+```
